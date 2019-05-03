@@ -9,8 +9,7 @@ _backend_ del que nos darán detalles más adelante).
 
 **Prototipo**
 
-En esta liga se encuentra el prototipo de la propuesta realizada por UX
-[prototipo](https://www.figma.com/file/JKTzMJwHbzDmA2ADsi8x9r0h/Burger-Queen?node-id=0%3A1)
+En esta liga se encuentra el [prototipo](https://www.figma.com/file/JKTzMJwHbzDmA2ADsi8x9r0h/Burger-Queen?node-id=0%3A1) de la propuesta realizada por UX.
 
 
 **Diagrama de flujo de la aplicación**
