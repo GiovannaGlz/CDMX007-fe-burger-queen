@@ -2,6 +2,18 @@
 
 ## Preámbulo
 
+Un pequeño restaurante de hamburguesas, que está creciendo, necesita una
+interfaz en la que puedan tomar pedidos usando una _tablet_, y enviarlos
+a la cocina para que se preparen ordenada y eficientemente (a través de un
+_backend_ del que nos darán detalles más adelante).
+
+##Diagrama de flujo de la aplicación
+-![flujo](/burgerq.png)
+
+# Burger Queen
+
+## Preámbulo
+
 [React](https://reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
