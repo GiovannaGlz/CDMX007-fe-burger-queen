@@ -7,7 +7,9 @@ interfaz en la que puedan tomar pedidos usando una _tablet_, y enviarlos
 a la cocina para que se preparen ordenada y eficientemente (a través de un
 _backend_ del que nos darán detalles más adelante).
 
-##Diagrama de flujo de la aplicación
+## Diagrama de flujo de la aplicación
+
+En la siguiente imagen se describe el flujo que la aplicación debe seguir al ser usada por el mesero para tomar el pedido del cliente.
 
 ![flujo](/burgerq.png)
 
