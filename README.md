@@ -7,7 +7,13 @@ interfaz en la que puedan tomar pedidos usando una _tablet_, y enviarlos
 a la cocina para que se preparen ordenada y eficientemente (a través de un
 _backend_ del que nos darán detalles más adelante).
 
-## Diagrama de flujo de la aplicación
+**Prototipo**
+
+En esta liga se encuentra el prototipo de la propuesta realizada por UX
+[prototipo](https://www.figma.com/file/JKTzMJwHbzDmA2ADsi8x9r0h/Burger-Queen?node-id=0%3A1)
+
+
+**Diagrama de flujo de la aplicación**
 
 En la siguiente imagen se describe el flujo que la aplicación debe seguir al ser usada por el mesero para tomar el pedido del cliente.
 
