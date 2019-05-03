@@ -8,7 +8,11 @@ a la cocina para que se preparen ordenada y eficientemente (a través de un
 _backend_ del que nos darán detalles más adelante).
 
 ##Diagrama de flujo de la aplicación
--![flujo](/burgerq.png)
+
+![flujo](/burgerq.png)
+
+
+
 
 # Burger Queen
 
