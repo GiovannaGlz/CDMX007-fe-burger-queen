@@ -1,9 +1,17 @@
+//Dependencias
 import React from 'react';
 import {render} from 'react-dom';
-import App from './componentes/App';
+import {BrowserRouter as Router} from 'react-router-dom';
+
+//Routes
+import AppRoutes from './routes';
+
+//Asset
 import './index.css';
 
 render(
-  <App />,
+  <Router>
+    <AppRoutes />
+  </Router>,
   document.getElementById('root')
 );
