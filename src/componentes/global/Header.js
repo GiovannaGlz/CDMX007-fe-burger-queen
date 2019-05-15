@@ -1,6 +1,7 @@
 //Dependencias
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom'
 
 //Assets
 import burger from '../global/img/burger_icon.png';
@@ -21,7 +22,9 @@ class Header extends Component {
         <img src={burger}/>
         <h6>{title}</h6>
         <ul className="Menu">
-        {items && items.map((item, key) => <li key={key}>{item.title}</li>)}
+        {
+          items && items.map(
+            (item, key) => <li key={key}><Link to={item.url}>{item.title}</Link></li>)}
         </ul>
         </div>
       </div>

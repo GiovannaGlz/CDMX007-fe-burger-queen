@@ -1,14 +1,14 @@
 export default [
     {
-      title: 'Home',
+      title: 'Home ',
       url: '/'
     },
     {
-      title: 'About Us',
+      title: 'About Us ',
       url: '/about'
     },
     {
-      title: 'Contact Us',
+      title: 'Contact Us ',
       url: '/contact'
     },
   ];
