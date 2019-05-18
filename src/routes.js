@@ -4,18 +4,16 @@ import {Route, Switch} from 'react-router-dom';
 
 //Componentes
 import App from './componentes/App';
-import About from './componentes/About';
-import Contact from './componentes/Contact';
-import Home from './componentes/Home';
-import Page404 from './componentes/Page404';
+import About from './componentes/Hamburguesas';
+import Contact from './componentes/Bebidas';
+import Dinner from './componentes/Desayuno';
 
 const AppRoutes = () =>
 <App>
     <Switch>
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/" component={Home} />
-        <Route component={Page404} />
+        <Route exact path="/Hamburguesas" component={About} />
+        <Route exact path="/Bebidas" component={Contact} />
+        <Route exact path="/Desayuno" component={Dinner} />
     </Switch>
 </App>
 

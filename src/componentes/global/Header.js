@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom'
 
 //Assets
-import burger from '../global/img/burger_icon.png';
+import burger from './img/burger_icon.png';
 import './css/Header.css';
 import { types } from 'util';
 

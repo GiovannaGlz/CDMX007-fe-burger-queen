@@ -1,14 +1,14 @@
 export default [
     {
-      title: 'Home ',
-      url: '/'
+      title: 'Desayuno',
+      url: '/Desayuno'
     },
     {
-      title: 'About Us ',
-      url: '/about'
+      title: 'Hamburguesas',
+      url: '/Hamburguesas'
     },
     {
-      title: 'Contact Us ',
-      url: '/contact'
+      title: 'Bebidas',
+      url: '/Bebidas'
     },
   ];

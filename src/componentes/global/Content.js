@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom'
 
 //Assets
 import './css/Content.css';
 
 class Content extends Component {
   static propTypes = {
-    body: PropTypes.object.isRequiered
+    body: PropTypes.object.isRequiered,
+      title: PropTypes.string.isRequired,
+      items: PropTypes.array.isRequired
   };
 //   constructor() {
 //     super();
@@ -64,10 +67,16 @@ class Content extends Component {
 
   render() {
     const {body} = this.props;
+    const {items} = this.props;
 
     return (
       <div className="Content">
-      {body}
+      <ul className="Menu">
+        {
+          items && items.map(
+            (item, key) => <button key={key}><Link to={item.url}>{item.title}</Link></button>)}
+        </ul>
+        {body}
         {/* <h2>Counter: {this.state.count}</h2>
         <p>
           <button id="add" onClick={this.handleCountClick}>+</button>

@@ -19,8 +19,8 @@ class App extends Component {
     const {children} = this.props;
     return (
       <div className="App">
-        <Header title="Codejobs" items={items}/>
-        <Content body={children} />
+        <Header title="Burguer Queen" />
+        <Content body={children} items={items}/>
         <Footer />
       </div>
     );
