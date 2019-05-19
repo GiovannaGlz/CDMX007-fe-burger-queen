@@ -8,8 +8,7 @@ import './css/Content.css';
 class Content extends Component {
   static propTypes = {
     body: PropTypes.object.isRequiered,
-      title: PropTypes.string.isRequired,
-      items: PropTypes.array.isRequired
+    items: PropTypes.array.isRequired
   };
 //   constructor() {
 //     super();
@@ -76,7 +75,7 @@ class Content extends Component {
           items && items.map(
             (item, key) => <button key={key}><Link to={item.url}>{item.title}</Link></button>)}
         </ul>
-        {body}
+        <section>{body}</section>
         {/* <h2>Counter: {this.state.count}</h2>
         <p>
           <button id="add" onClick={this.handleCountClick}>+</button>

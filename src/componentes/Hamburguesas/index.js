@@ -1,14 +1,14 @@
 //Dependencias
 import React, {Component} from 'react';
 
-class About extends Component {
+class Hamburguesa extends Component {
     render(){
         return (
-            <div className="About">
-                <h1>About Page</h1>
+            <div className="Hamburguesa">
+                <h1>Menú de Hamburguesas</h1>
             </div>
         );
     }
 }
 
-export default About;
+export default Hamburguesa;

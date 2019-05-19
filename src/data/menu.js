@@ -1,7 +1,7 @@
 export default [
     {
       title: 'Desayuno',
-      url: '/Desayuno'
+      url: '/Desayuno',
     },
     {
       title: 'Hamburguesas',
@@ -10,5 +10,5 @@ export default [
     {
       title: 'Bebidas',
       url: '/Bebidas'
-    },
+    }
   ];
