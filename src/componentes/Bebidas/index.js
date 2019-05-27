@@ -5,7 +5,9 @@ class Drink extends Component {
     render(){
         return (
             <div className="Drink">
-                <h1>Bebidas</h1>
+                <button>Café americano</button>
+                <button>Café con leche</button>
+                <button>Jugo de frutas</button>
             </div>
         );
     }

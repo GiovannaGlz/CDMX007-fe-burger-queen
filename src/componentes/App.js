@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 //Componentes
 import Header from './global/Header';
 import Content from './global/Content';
-import Footer from './global/Footer';
+import Ticket from './global/Ticket';
 
 //data
 import items from '../data/menu'
@@ -21,7 +21,7 @@ class App extends Component {
       <div className="App">
         <Header title="Burguer Queen" />
         <Content body={children} items={items}/>
-        <Footer />
+        <Ticket />
       </div>
     );
   }

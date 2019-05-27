@@ -5,7 +5,9 @@ class Hamburguesa extends Component {
     render(){
         return (
             <div className="Hamburguesa">
-                <h1>Menú de Hamburguesas</h1>
+                <button>Pollo</button>
+                <button>Res</button>
+                <button>Vegetariana</button>
             </div>
         );
     }

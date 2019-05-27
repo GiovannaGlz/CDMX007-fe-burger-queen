@@ -9,7 +9,7 @@ class Dinner extends Component {
     render(){
         return (
             <div className="Dinner">
-                <h1>Menú desayuno</h1>
+                <button>Sandwich</button>
           </div>
         );
     }
