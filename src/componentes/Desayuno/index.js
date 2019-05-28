@@ -1,5 +1,6 @@
 //Dependencias
 import React, {Component} from 'react';
+import { GridList } from '@material-ui/core';
 // import PropTypes from "prop-types";
 
 class Dinner extends Component {
@@ -8,9 +9,9 @@ class Dinner extends Component {
     //   };
     render(){
         return (
-            <div className="Dinner">
+            <GridList className="Dinner" cols={3}>
                 <button>Sandwich</button>
-          </div>
+          </GridList>
         );
     }
 }

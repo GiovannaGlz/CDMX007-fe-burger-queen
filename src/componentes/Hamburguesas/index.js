@@ -1,14 +1,15 @@
 //Dependencias
 import React, {Component} from 'react';
+import {GridList} from '@material-ui/core'
 
 class Hamburguesa extends Component {
     render(){
         return (
-            <div className="Hamburguesa">
+            <GridList className="Hamburguesa" cols={3}>
                 <button>Pollo</button>
                 <button>Res</button>
                 <button>Vegetariana</button>
-            </div>
+            </GridList>
         );
     }
 }
