@@ -1,6 +1,6 @@
 //Dependencias
 import React, {Component} from 'react';
-import { GridList } from '@material-ui/core';
+import { GridList, Button } from '@material-ui/core';
 // import PropTypes from "prop-types";
 
 class Dinner extends Component {
@@ -10,7 +10,7 @@ class Dinner extends Component {
     render(){
         return (
             <GridList className="Dinner" cols={3}>
-                <button>Sandwich</button>
+                <Button variant="outlined" size="small">Sándwich</Button>
           </GridList>
         );
     }

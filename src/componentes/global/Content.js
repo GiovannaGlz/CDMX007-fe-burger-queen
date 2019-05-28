@@ -6,6 +6,7 @@ import {GridList, Button} from '@material-ui/core';
 
 //Assets
 import './css/Content.css';
+import { red } from '@material-ui/core/colors';
 
 class Content extends Component {
   static propTypes = {
@@ -70,9 +71,9 @@ class Content extends Component {
   render() {
     const { items } = this.props;
     const style ={
-      styleButtom: {
+      styleButton: {
         width: 310,
-        height: 125
+        height: 125,
       }
     }
 
@@ -81,7 +82,7 @@ class Content extends Component {
         <GridList cols={1}>
         {
           items && items.map(
-            (item, key) => <Button variant="outlined" size="small" style={style.styleButtom} key={key}><Link to={item.url}>{item.title}</Link></Button>)}
+            (item, key) => <Button variant="outlined" size="small" style={style.styleButton} key={key}><Link to={item.url}>{item.title}</Link></Button>)}
             </GridList>
           
           {/* <h2>Counter: {this.state.count}</h2>

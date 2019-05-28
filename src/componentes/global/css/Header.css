@@ -1,6 +1,5 @@
 .Header {
   position: relative;
-  margin: 1%;
   display: inline-block;
   background-color: #222;
   height: 10%;
@@ -8,5 +7,5 @@
 }
 
 .Burger img {
-  width: 7%;
+  width: 5%;
 }
